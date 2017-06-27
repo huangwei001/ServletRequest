@@ -4,4 +4,38 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+
+  <servlet>
+    <servlet-name>Request1</servlet-name>
+    <servlet-class>com.test.hw.Request1</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Request2</servlet-name>
+    <servlet-class>com.test.hw.Request2</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Request3</servlet-name>
+    <servlet-class>com.test.hw.Request3</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Request1</servlet-name>
+    <url-pattern>/servlet/Request1</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Request2</servlet-name>
+  <url-pattern>/servlet/Request2</url-pattern>
+</servlet-mapping>
+
+  
+  <servlet-mapping>
+    <servlet-name>Request3</servlet-name>
+    <url-pattern>/servlet/Request3</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
